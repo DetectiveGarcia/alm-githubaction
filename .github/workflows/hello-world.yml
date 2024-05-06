@@ -1,0 +1,13 @@
+name: "dag 1"
+
+on: 
+  push:
+    branches: '*'
+
+jobs: 
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Print Hello World
+        run: echo "Hello World!" 
